@@ -5,23 +5,29 @@ btn.addEventListener("click", function (e) {
 
   var tituloFilmePesquisado = document.getElementById("entradaFilme").value;
 
-  for (var indice = 0; indice < listaNomes.length; indice++) {
-    if (tituloFilmePesquisado === listaNomes[indice]) {
-      alert("Este filme já foi inserido na lista");
-    } else {
-      alert(
-        "Ajude-nos a melhorar, solicite este filme enviando-nos uma mensagem."
-      );
-    }
+  //começa aqui
+
+  var listaNomes = [
+    "Transformers",
+    "Homem de Ferro",
+    "Amelie",
+    "10 things I hate about you"
+  ];
+
+  if (
+    listaNomes.includes(
+      "Transformers",
+      "Homem de Ferro",
+      "Amelie",
+      "10 things I hate about you"
+    )
+  ) {
+    console.log("Este filme já existe em nossa lista");
+    alert("Este filme já existe em nossa lista");
   }
 });
 
-var listaNomes = [
-  "Transformers",
-  "Homem de Ferro",
-  "Amelie",
-  "10 things I hate about you"
-];
+//termina aqui
 
 var listaFilmes = [
   {
@@ -48,7 +54,3 @@ var listaFilmes = [
 for (var indice = 0; indice < listaFilmes.length; indice++) {
   document.write("<img src=" + listaFilmes[indice].imagem + ">");
 }
-
-//O que eu quero fazer:
-
-//Uma caixa de pesquisa e o usuário escreve o nome do filme. Se o nome escrito pelo usuário for igual ao nome do filme na lista, aparece "Este filme já existe na lista". Senão, aparece uma mensagem ou alerta: "Ajude-nos a melhorar, solicite este filme enviando-nos uma mensagem."
