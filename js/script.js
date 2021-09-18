@@ -14,16 +14,12 @@ btn.addEventListener("click", function (e) {
     "10 things I hate about you"
   ];
 
-  if (
-    listaNomes.includes(
-      "Transformers",
-      "Homem de Ferro",
-      "Amelie",
-      "10 things I hate about you"
-    )
-  ) {
-    console.log("Este filme já existe em nossa lista");
-    alert("Este filme já existe em nossa lista");
+  var cadaNome = tituloFilmePesquisado;
+
+  if (listaNomes.includes(cadaNome)) {
+    alert("Esse filme já existe em nossa lista");
+  } else {
+    alert("Ajude-nos a melhorar...");
   }
 });
 
