@@ -1,2 +1,2 @@
 # imersaoalura
-Testando criar um repositório para vários arquivos
+Repositório da Imersão Dev Alura, com os Desafios e Proje tos propostos.
