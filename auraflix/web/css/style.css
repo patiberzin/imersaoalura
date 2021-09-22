@@ -1,0 +1,80 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://i.pinimg.com/736x/36/7c/fd/367cfda315177453dd223d19888f8530.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+    font-size: 60px;
+    font-family: Bodoni;
+  }
+  
+  .page-subtitle {
+    color: #013238;
+    margin-top: 5px;
+    font-family: Didot;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .page-logo {
+    width: 150px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  #listaFilmes img {
+    margin: 10px;
+    max-height: 250px;
+  }
+  
+  .form-wrapper {
+    margin: 0 0 15px;
+  }
+  
+  .form-wrapper input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 10px;
+    border: 3px dashed #c40d78;
+  }
+  
+  button {
+    border: 3px solid #c40d78;
+    padding: 10px 10px;
+    color: #c40d78;
+    background-color: #d6f4ff;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    border: #76dcde;
+    color: #e7a9f2;
+  }
+  
+  .h2 #nome-filmes {
+    color: #ffffff;
+    font-size: 20px;
+  }
