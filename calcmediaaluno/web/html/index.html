@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <title> Imersão Dev Alura - Aula 01</title>
+  </head>
+  <body>
+    
+       <!-- Marca -->
+<div class="marcaalura">
+    <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg"> </a>
+</div>
+    
+   <!-- Inicio -->
+    <div class="container">
+      <h1 class="page-title"> Calculadora de média </h1>
+      <p class="page-subtitle"> Descubra qual a sua média e se você passou de ano! </p>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""> 
+      
+    <!-- Calculadora imagem -->
+         <div class="calculadora">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZRg1ZKcL3U8aDydRC07Sys_NOkGbpJyO3Fg&usqp=CAU" class="calculadora" alt="calculadora">
+         </div>
+    </div>
+   <!-- Fim do Inicio -->
+    
+<!-- Instruções para Calcular média no JavaScript -->
+    
+    <h1 class="titulo"> Como calcular média no JavaScript? </h1>
+    
+    <section>
+      <div class="texto">
+      <p> Neste exemplo, vamos primeiramente armazenar o nome de um aluno na variável "nome", desta forma: <b>var nome = "Patrícia"</b></p>
+      <p> Observe que o nome está entre aspas, porque é uma string, ou seja, textos, caracteres ou números que queremos printar na tela, devem ser escritos entre aspas. </p>
+      <p> <b>Depois, é necessário colocar a nota do aluno em relação aos bimestres.</b></p>
+      <p> Escrevemos as variáveis que receberão as notas dos alunos, no estilo Camel Case (imagine um camelo cujas corcovas tem altos e baixos), ou seja, em relação às palavras, a primeira deverá ser escrita com a primeira letra em minúsculo, a segunda palavra e as subsequentes, deverão ser escritas com a primeira letra em maiúsculo. Desta forma: <b> notaPrimeiroBimestre. </b></p>
+      <p> Agora, precisamos fazer a conta, ou seja, a média da nota dos alunos. Para isso, segundo a matemática, somamos as notas e dividimos por 4, conforme o exemplo, por termos 4 notas bimestrais. Porém essa conta tem uma ordem de precedência e igual na matemática, a primeira coisa que é resolvida, é aquilo que está entre parênteses. Portanto, segue esta parte da solução: <b>var notaFinal = (notaPrimeiroBimestre + notaSegundoBimestre + notaTerceiroBimestre + notaQuartoBimestre) / 4 </b></p>
+      <p>Então, vamos solicitar ao sistema que printe na tela a média do aluno, utilizando o <b>console.log</b>. Na frente, entre parênteses, colocam-se aspas e dentro delas, temos a string <b>"Aprovado, passou de ano, "</b> repare que deixamos um espaço para que os termos não fiquem grudados ao sair no Console. Depois, colocamos o sinal de mais (+) em seguida, a variável nome, fechando parênteses e colocando ponto e vírgula no final.</p>
+      <p>Agora, vamos fazer a <b>Condição if e else.</b>Leiam o seguinte: Se nota final for maior que seis, print na tela "Aprovado, passou de ano, fulano de tal". Caso contrário, print "Reprovado". Isso em código, pode ser explicado da seguinte forma: If significa Se. É necessário colocar entre parênteses a notaFinal e o <b>sinal maior que (>)</b>. Depois, escrevemos console.log para printar e entre parênteses a string que queremos escrever, concatenando com o sinal de mais (+) a informação inserida na variável nome.</p>
+      <p><b>Else</b>, significa "senão", console.log, ou seja, <b>imprima "Reprovado"</b>.</p>
+      <p>Veremos o código completo mais à frente.</p>
+      <p>Em seguida, vamos colocar uma informação para que a nota não passe de um número X de casas decimais depois do ponto. Neste caso, queremos apenas uma casa decimal. <b>Para que este parâmetro fique fixado, precisamos colocar o código "toFixed".</b> E por fim, printamos na tela, a notaFixada.</p>
+      </div>
+        <h2 class="subtitulo">Veja o código completo:</h2>
+        
+      <div class="codigo">      
+          <p>var nome = "Patricia"</p>
+          <br>
+          <p>var notaPrimeiroBimestre = 9</p>
+          <p>var notaSegundoBimestre = 7</p>
+          <p>var notaTerceiroBimestre = 8</p>
+          <p>var notaQuartoBimestre = 6</p>
+          <br>
+          <p>var notaFinal = (notaPrimeiroBimestre + notaSegundoBimestre + notaTerceiroBimestre + notaQuartoBimestre) / 4</p>
+          <br>
+          <p>console.log("Média do aluno é: " + notaFinal)</p>
+          <br>
+          <p>if (notaFinal > 6) {</p>
+          <p>  console.log ("Aprovado, passou de ano, " + nome);</p>
+          <p>} else {</p>
+          <p>  console.log ("Reprovado")</p>
+          <p>}</p>
+          <br>
+          <p>var notaFixada = notaFinal.toFixed(1)</p>
+          <p>console.log(notaFixada)</p>
+      </div> 
+        <div class="comentarios">
+          <h2 class="subtitulo2">Comentários</h2>
+          <h3>Você sabe inserir comentários em HTML, CSS e JavaScript?</h3>
+          <br>
+          <ul>
+            <li><b>Em HTML:</b> sinal de menor que!-- Coloque seu comentário aqui --sinal de maior que</li>
+          <li><b>Em CSS:</b> /* Coloque seu comentário aqui*/</li>
+          <li><b>Em JavaScript:</b> //Coloque seu comentário aqui</li>
+          </ul>
+      </div>
+             
+    </section>
+      
+  </body>
+</html>

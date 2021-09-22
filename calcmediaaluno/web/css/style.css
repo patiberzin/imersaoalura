@@ -1,0 +1,96 @@
+.marcaalura {
+  position: static;
+  margin: 0 0;
+  padding: 10px 10px;
+  background: #000000;
+}
+
+.calculadora {
+  max-width: 800px;
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+  position: static; /*obs só coloquei por colocar*/
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Roboto Mono',monospace;
+  min-height: 400px;
+
+  background-size: 80vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color:#7d06e5;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color:#000000;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.page-logo {
+  width: 150px;
+  background-color: #444857;
+}
+
+.alura-logo {
+  width: 120px;
+  position: static; /*obs só coloquei por colocar*/
+  margin: 0 10px;
+}
+
+.titulo, .subtitulo, .subtitulo2 {
+  text-align: center;
+  color: #670cb7;
+  font-size: 30px
+}
+
+.texto {
+  margin: 10px 30px;
+  position: static; /*obs só coloquei por colocar*/
+}
+
+.codigo {
+  background-color: #000000;
+  color: white;
+  margin: 0 30px;
+  padding: 20px 20px;
+}
+
+.comentarios {
+  margin: 0 30px;
+  background-color: #5cbfd1;
+  padding: 20px 20px;
+}
+
+.comentarios h2::after {
+  content: "";
+  display: block;
+  width: 500px;
+  height: 3px;
+  background: #f6dcec;
+  margin: 40px auto;
+}
+
+.comentarios h3 {
+  color: #054c59;
+}
+
+@media (max-width: 800px) {  /*Diminui o padding quando chega no mobile*/
+    .texto {
+       padding-top: 30px;
+    }
+}
