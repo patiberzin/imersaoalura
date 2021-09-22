@@ -1,2 +1,2 @@
 # imersaoalura
-Repositório da Imersão Dev Alura, com os Desafios e Proje tos propostos.
+Repositório da Imersão Dev Alura, com os Desafios e Projetos propostos.
