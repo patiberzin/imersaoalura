@@ -1,0 +1,71 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 600px;
+    background-image: url("https://t3.ftcdn.net/jpg/01/67/28/80/360_F_167288090_x0xAZmbVryPe9XVV45cGDSPYAAVGnjhb.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #000000;
+    margin: 0 0 5px;
+    font-size: 60px;
+    font-width: bold;
+    font-family: Cooper Black;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 16px;
+    font-size: 20px;
+    font-width: bold;
+    font-family: Verdana;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  @media (max-height: 500px) {
+    body {
+      min-height: 800px;
+    }
+  }
+  
+  input {
+    margin: 10px 0;
+    padding: 6px;
+    border: 3px solid #fbae0c;
+  }
+  
+  button {
+    border: 3px solid #ffe41c;
+    padding: 10px 10px;
+    color: #ffe41c;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    background-color: #000000;
+  }
+  
+  .resultado {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 16px;
+  }
