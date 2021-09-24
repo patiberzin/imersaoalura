@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(
+    38.36deg,
+    #8f0c36 44.82%,
+    rgba(143, 12, 54, 0) 101.91%
+  );
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background: #ecf4ff;
+  margin: 30px 64px;
+  border-radius: 20px;
+  box-shadow: 3px 3px #9b6f7d, -1em 0 0.4em #700023;
+  color: #1c1c1c;
+  padding: 50px;
+  position: absolute;
+}
+
+.perfil-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 20px;
+}
+
+.pati {
+  font-weight: 700;
+  font-size: 36px;
+  color: #700022;
+}
+
+.bio {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f4cbd2;
+  margin-top: 30px;
+  padding: 20px 50px;
+  border-radius: 20px;
+}
+
+.projetos h2 {
+  margin: 5px 0;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.projetos-item {
+  font-size: 20px;
+  color: #700022;
+}
+
+a {
+  color: #700022;
+  text-decoration: none;
+  list-style-type: none;
+  line-height: 1em;
+}
+
+a:hover {
+  color: #ee4899;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 20px 0;
+}
+
+.footer {
+  max-width: 100%;
+  justify-content: space-between;
+  display: flex;
+  background: #f7dce1;
+  margin: 20px auto;
+  padding-bottom: 30px;
+  border-radius: 20px;
+}
+
+.footer p {
+  margin: 20px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.redes {
+  display: flex;
+  align-items: center;
+}
+
+.redes img:nth-child(odd) {
+  margin-right: 30px;
+}
+
+.imagem {
+  border-radius: 460px;
+  max-width: 50px;
+  padding: 10px;
+  margin-top: 35px;
+}
+
+.tema button {
+  align-self: flex-end;
+  border: 3px solid #d40055;
+  border-radius: 20px;
+  padding: 8px 16px;
+  color: #700022;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: #f7dce1;
+  margin: 0 10px;
+}
+
+.tema button:hover {
+  color: #ee4899;
+  border-color: #ee4899;
+}
+
+.dark {
+  background: radial-gradient(
+    449.44% 882.56% at 46.53% 50.83%,
+    #890043 0%,
+    rgba(7, 7, 7, 0) 100%
+  );
+}
+
+.dark .container {
+  background: conic-gradient(
+    from -90deg at 54.66% 100%,
+    #141414 0deg,
+    rgba(20, 20, 20, 0) 360deg
+  );
+}
+
+.dark .pati {
+  color: #fceff5;
+}
+
+.dark .bio {
+  color: #fceff5;
+}
